@@ -1,6 +1,6 @@
 {
   "name": "mailru-puppeteer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple `changePassword` function to mail.ru website",
   "main": "index.js",
   "engines": {
