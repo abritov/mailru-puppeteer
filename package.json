@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/mdfitumi/mailru-puppeteer",
   "scripts": {
-    "start": "node src/index.js"
+    "format": "prettier --write \"src/**/*.js\""
   },
   "husky": {
     "hooks": {
