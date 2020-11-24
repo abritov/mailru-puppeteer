@@ -1,0 +1,36 @@
+{
+  "name": "mailru-puppeteer",
+  "version": "1.0.0",
+  "description": "A simple `changePassword` function to mail.ru website",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/mdfitumi/mailru-puppeteer",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [
+    "mail.ru",
+    "api",
+    "browser",
+    "puppeteer",
+    "login"
+  ],
+  "author": "pkgsail.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.0",
+    "husky": "^4.3.0",
+    "prettier": "^2.2.0",
+    "pretty-quick": "^3.1.0"
+  }
+}
