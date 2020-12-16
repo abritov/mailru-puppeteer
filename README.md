@@ -15,3 +15,7 @@ main()
     .then(() => console.debug('ok'))
     .catch(err => console.error(err.message || err));
 ```
+
+Changelog
+
+- `1.0.6` take that mailru
