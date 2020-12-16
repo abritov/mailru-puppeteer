@@ -18,4 +18,4 @@ main()
 
 Changelog
 
-- `1.0.6` take that mailru
+- `1.1.0` take that mailru
