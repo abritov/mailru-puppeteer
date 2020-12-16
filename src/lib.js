@@ -10,7 +10,6 @@ async function solveCaptcha(page, imageResolver) {}
 
 async function changePassword(email, password, newPassword, debugLogger = (str) => {}) {
   const browser = await puppeteer.launch({
-    headless: false,
     timeout: 60000,
   });
   try {
